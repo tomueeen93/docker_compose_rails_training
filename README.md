@@ -1,24 +1,15 @@
-# README
+# Docker compose and ruby on rails training.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Usage
+```zsh
+% docker-compose up
 
-Things you may want to cover:
+% docker-compose run web rails db:create
 
-* Ruby version
+OR
 
-* System dependencies
+% docker-compose run web rails db:migrate
+```
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
